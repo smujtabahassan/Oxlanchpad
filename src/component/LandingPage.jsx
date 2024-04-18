@@ -7,7 +7,11 @@ import Gate from "../assets/gate.png";
 import huboi from "../assets/huobi.png";
 import bybit from "../assets/bybit.png";
 import pancake from "../assets/pancake.png";
+
 import { Infrastructure } from './Infrastructure';
+import { FaTelegram,FaDiscord } from "react-icons/fa";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { ImLinkedin } from "react-icons/im";
 
 
 export const LandingPage = () => {
@@ -118,8 +122,8 @@ const data=[
 </header>
 
 <main className=" relative w-full  opacity-90  " >
-<img src={bgpic} alt="here  " className='absolute top-0 -z-10' />
-<img src={bgpicsecound} alt="here"  className='lg:block hidden  right-0 absolute top-0 -z-10'/>
+<img src={bgpic} alt="here  " className='absolute h-[90%] top-0 -z-10' />
+<img src={bgpicsecound} alt="here"  className='lg:block h-[90%] hidden  right-0 absolute top-0 -z-10'/>
 
 
 
@@ -131,14 +135,16 @@ const data=[
 
   <div
     
-   className='flex flex-row  mx-auto w-fit'>
+   className='flex md:flex-row flex-col  mx-auto w-fit'>
     
-    <button className={`cursor-pointer hidden   md:flex justify-center items-center  hover:scale-75 transition-all ease-linear delay-75   h-[42px] mr-2  bg-gradient-to-b from-[#0400DB]    to-[#CD05FF]      text-[15px] font-bold   gap-2.5 p-2.5  lg:w-[178.81px] w-[2.375rem]  rounded-tl-[1.25rem] rounded-br-[1.25rem] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] text-[6px]">Connect Wallet</Link>
+    <button className={`cursor-pointer    sm:flex flex-col  justify-center items-center  hover:scale-75 transition-all ease-linear delay-75   h-[42px] mr-2  bg-gradient-to-b from-[#0400DB]    to-[#CD05FF]      text-[15px] font-bold   gap-2.5 p-2.5  lg:w-[178.81px] w-[2.375rem]  rounded-tl-[1.25rem] rounded-br-[1.25rem] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] text-[6px]">Connect Wallet</Link>
 </button>
     
 
-<button className={`cursor-pointer hidden   md:flex justify-center items-center    h-[42px] mr-2  bg-[#cdcccc]  hover:scale-125 transition-all ease-linear delay-75       gap-2.5 p-2.5  lg:w-[178.81px] w-[2.375rem]  rounded-tl-[1.25rem] font-bold   shadow-inner rounded-br-[1.25rem] text-black text-[15px] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] text-[6px]">Connect Wallet</Link>
+<button className={`cursor-pointer   flex justify-center items-center    h-[42px] mr-2  bg-[#cdcccc]  hover:scale-125 transition-all ease-linear delay-75       gap-2.5 p-2.5  lg:w-[178.81px] w-[2.375rem]  rounded-tl-[1.25rem] font-bold   shadow-inner rounded-br-[1.25rem] text-black text-[15px] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] text-[6px]">Connect Wallet</Link>
 </button>
+
+
 
   </div>
 <div className='px-4 space-y-4' >  
@@ -158,7 +164,19 @@ const data=[
 
 
 </div>
+
 </div>
+
+
+</div>
+
+<div className='  sm:mt-[-360px] mt-[80px] sm:mr-2 ml-1 flex flex-row sm:flex-col    sm:float-end float-center justify-center  border-2 items-center sm:gap-8     bg-gradient-to-b from-[#0038FD]    to-[#DF00F2]    w-auto md:w-fit text-[15px] font-bold   gap-2.5 p-3.5 p-6   rounded-xl '>
+
+<FaTelegram className='hover:scale-75 transition-all ease-linear delay-75' />
+<FaDiscord className='hover:scale-75 transition-all ease-linear delay-75'/>
+<AiFillTwitterCircle className='hover:scale-75 transition-all ease-linear delay-75'/>
+<ImLinkedin className='hover:scale-75 transition-all ease-linear delay-75'/>
+
 </div>
 <br />
 <Infrastructure/>
