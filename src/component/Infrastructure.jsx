@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'; 
-
+import "../App.css";
 import card1 from '../assets/c1.png';
 import card2 from '../assets/c2.png';
 import card3 from '../assets/c3.png';
@@ -11,14 +11,14 @@ import card7 from '../assets/c7.png';
 
 export const Infrastructure = () => {
   return (
-    <div> 
+    <div className=''> 
         
         <div className='  flex  flex-col items-center justify-center p-7  gap-4 h-auto sm:mt-[240px] mt-[140px]'><h1 className='sm:text-[40px] text-[20px] font-bold'>Infrastructure:Web 3 Gamming</h1>
         
         <p className='max-w-[850px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Possimus sapiente cum temporibus recusandae commodi atque excepturi officia </p>
 
-<div className='relative grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1   gap-4 ' >
+<div className='relative lg:p-40 p-0 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1   gap-4 ' >
 
   
 <div className=' relative  sm:row-span-2 row-span-1 hover:scale-90 transition-all ease-linear delay-75'>
@@ -121,7 +121,7 @@ export const Infrastructure = () => {
 
 </div>
 
-
+<div className=" absolute gradient md:w-[294.236px] w-[194.236px] md:h-[260px] h-[250px] top-[40%] left-[30%] z-[-10] "></div>
 
 
 </div>

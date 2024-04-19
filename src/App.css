@@ -1,0 +1,13 @@
+.gradient {
+    border-radius: 294.236px;
+    background: var(
+      --linear-25,
+      linear-gradient(
+        109deg,
+        rgba(221, 68, 162, 0.25) 1.88%,
+        rgba(221, 68, 193, 0.25) 36.78%,
+        rgba(189, 20, 150, 0.25) 102.39%
+      )
+    );
+    filter: blur(64.1500015258789px);
+  }
