@@ -122,8 +122,8 @@ const data=[
 </header>
 
 <main className=" relative w-full  opacity-90  " >
-<img src={bgpic} alt="here  " className='absolute h-[90%] top-0 -z-10' />
-<img src={bgpicsecound} alt="here"  className='lg:block h-[90%] hidden  right-0 absolute top-0 -z-10'/>
+<img src={bgpic} alt="here  " className='absolute h-[30%] top-0 -z-10' />
+<img src={bgpicsecound} alt="here"  className='lg:block h-[30%] hidden  right-0 absolute top-0 -z-10'/>
 
 
 
@@ -135,7 +135,7 @@ const data=[
 
   <div
     
-   className='flex md:flex-row flex-col  mx-auto w-fit'>
+   className='flex flex-row   mx-auto w-fit'>
     
     <button className={`cursor-pointer    sm:flex flex-col  justify-center items-center  hover:scale-75 transition-all ease-linear delay-75   h-[42px] mr-2  bg-gradient-to-b from-[#0400DB]    to-[#CD05FF]      text-[15px] font-bold   gap-2.5 p-2.5  lg:w-[178.81px] w-[2.375rem]  rounded-tl-[1.25rem] rounded-br-[1.25rem] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] text-[6px]">Connect Wallet</Link>
 </button>
