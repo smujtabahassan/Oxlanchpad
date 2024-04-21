@@ -23,7 +23,7 @@ export const Infrastructure = () => {
   
 <div className=' relative  sm:row-span-2 row-span-1 hover:scale-90 transition-all ease-linear delay-75'>
 <img src={card1} alt="" className='   w-fit h-[100%]'  />  
-<div className='absolute ml-2 top-20'>
+<div className='absolute ml-2 md:top-14 top-10'>
   
 <button className={` cursor-pointer   border-2 border-blue-500    hover:scale-75 transition-all ease-linear delay-75   md:h-[42px] h-[55px] ml-2  bg-[#1C1D23]         gap-2.5 p-2.5  w-[155.81px]   rounded-tl-[1.25rem] rounded-br-[1.25rem] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] sm:text-[14px]">ENTER PLATFORM</Link>
 </button>
@@ -33,12 +33,12 @@ export const Infrastructure = () => {
 </div>
 
 
-<div className='relative hover:scale-90 transition-all ease-linear delay-75'>
+<div className='relative hover:scale-150 transition-all ease-linear delay-75 z-10'>
 
 
 
 <img src={card2} alt="" className='' />  
-<div className='absolute ml-2 top-20'>
+<div className='absolute  md:top-16 sm:top-10 top-14'>
   
 <button className={` cursor-pointer   border-2 border-blue-500  sm:flex flex-col  justify-center items-center  hover:scale-75 transition-all ease-linear delay-75   h-[42px] ml-2  bg-[#1C1D23]         gap-2.5 p-2.5  w-[185.81px]   rounded-tl-[1.25rem] rounded-br-[1.25rem] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] sm:text-[4px] "></Link>Trade Gamming NFTs
 </button>

@@ -12,6 +12,10 @@ import { Infrastructure } from './Infrastructure';
 import { FaTelegram,FaDiscord } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { ImLinkedin } from "react-icons/im";
+import { Slidercomponent } from './Slidercomponent';
+import NewSlider from './NewSlider';
+import { CompletedProjects } from './CompletedProjects';
+import { Frequentlyask } from './Frequentlyask';
 
 
 export const LandingPage = () => {
@@ -122,8 +126,8 @@ const data=[
 </header>
 
 <main className=" relative w-full  opacity-90  " >
-<img src={bgpic} alt="here  " className='absolute h-[30%] top-0 -z-10' />
-<img src={bgpicsecound} alt="here"  className='lg:block h-[30%] hidden  right-0 absolute top-0 -z-10'/>
+<img src={bgpic} alt="here  " className='absolute h-[20%] top-0 -z-10' />
+<img src={bgpicsecound} alt="here"  className='lg:block h-[20%] hidden  right-0 absolute top-0 -z-10'/>
 
 
 
@@ -181,6 +185,12 @@ const data=[
 <br />
 <Infrastructure/>
 
+{/* <NewSlider/> */}
+<Slidercomponent/>
+
+<CompletedProjects/>
+
+<Frequentlyask/>
 </main>
 
 

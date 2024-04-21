@@ -11,3 +11,19 @@
     );
     filter: blur(64.1500015258789px);
   }
+
+
+
+  .gradient2 {
+    border-radius: 294.236px;
+    background: var(
+      --linear-25,
+      linear-gradient(
+        109deg,
+        rgba(169, 46, 246, 0.25) 1.88%,
+        rgba(179, 51, 252, 0.25) 36.78%,
+        rgba(170, 12, 227, 0.25) 102.39%
+      )
+    );
+    filter: blur(24.1500015258789px);
+  }
