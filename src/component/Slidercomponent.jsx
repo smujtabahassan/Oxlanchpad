@@ -191,7 +191,7 @@ export const Slidercomponent = () => {
  
 </div>
 
-<div className=" absolute gradient2 lg:w-[894.236px] md:w-[494.236px] w-[194.236px] lg:h-[660px] md:h-[360px] h-[250px] top-[50%] left-[20%] z-[-10] "></div>
+<div className=" absolute gradient2 lg:w-[594.236px] md:w-[494.236px] w-[194.236px] lg:h-[660px] md:h-[360px] h-[250px] top-[50%] left-[20%] z-[-10] "></div>
 
 
 <div className='flex flex-col rounded-xl   gap-5  p-5 sm:w-[40%] w-[80%]  bg-[#1E1E1E] shadow-inner shadow-[#9629fc] drop-shadow-2xl'>

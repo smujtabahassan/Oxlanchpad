@@ -16,6 +16,7 @@ import { Slidercomponent } from './Slidercomponent';
 import NewSlider from './NewSlider';
 import { CompletedProjects } from './CompletedProjects';
 import { Frequentlyask } from './Frequentlyask';
+import { Footer } from './Footer';
 
 
 export const LandingPage = () => {
@@ -126,8 +127,8 @@ const data=[
 </header>
 
 <main className=" relative w-full  opacity-90  " >
-<img src={bgpic} alt="here  " className='absolute h-[20%] top-0 -z-10' />
-<img src={bgpicsecound} alt="here"  className='lg:block h-[20%] hidden  right-0 absolute top-0 -z-10'/>
+<img src={bgpic} alt="here  " className='absolute  top-0 -z-10' />
+<img src={bgpicsecound} alt="here"  className='lg:block hidden  right-0 absolute top-0 -z-10'/>
 
 
 
@@ -193,6 +194,7 @@ const data=[
 <Frequentlyask/>
 </main>
 
+<footer><Footer/></footer>
 
 
     </div>
