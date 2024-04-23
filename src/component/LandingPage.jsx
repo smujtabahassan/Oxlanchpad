@@ -13,7 +13,6 @@ import { FaTelegram,FaDiscord } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { ImLinkedin } from "react-icons/im";
 import { Slidercomponent } from './Slidercomponent';
-import NewSlider from './NewSlider';
 import { CompletedProjects } from './CompletedProjects';
 import { Frequentlyask } from './Frequentlyask';
 import { Footer } from './Footer';
@@ -186,7 +185,6 @@ const data=[
 <br />
 <Infrastructure/>
 
-{/* <NewSlider/> */}
 <Slidercomponent/>
 
 <CompletedProjects/>
