@@ -6,13 +6,13 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { ImLinkedin } from "react-icons/im";
 export const Footer = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center '>
 <div className='grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 items-center w-fit md:ml-[190px] ml-[90px] gap-20 mt-20 font-sans py-10 '>
 
 
-<div className='flex flex-col gap-2'> <h1 className='text-[#EC29FC] text-[50px] font-bold '>0xGame</h1>
+<div className='flex flex-col gap-2'> <h1 className='text-[#EC29FC] sm:text-[50px] text-[20px] font-bold '>0xGame</h1>
 
-<p className='max-w-[55%] text-[#a8b3bedd]'>A well-designed gaming header often incorporates elements such as game characters, 
+<p className='md:max-w-[75%] sm:max-w-[95%] max-w-[95%] text-[#a8b3bedd]'>A well-designed gaming header often incorporates elements such as game characters, 
 iconic symbols, vibrant colors, and dynamic visuals .</p>
 
 </div>
