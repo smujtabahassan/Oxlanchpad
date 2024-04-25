@@ -73,7 +73,7 @@ export const CompletedProjects = () => {
 
    
     <>
-    <div  className=" absolute gradient2 lg:w-[394.236px] md:w-[294.236px] w-[194.236px] opacity-20 lg:h-[360px] md:h-[260px] h-[250px] top-[80%] right-[10%] z-[-10] "></div>
+    <div  className=" absolute gradient2 lg:w-[394.236px] md:w-[294.236px] w-[194.236px] opacity-20 lg:h-[360px] md:h-[260px] h-[250px] top-[70%] right-[10%] z-[-10] "></div>
     
     
     <div key={index} className='flex flex-col   gap-5  border-2 sm:w-[90%] w-[auto] rounded-3xl  bg-[#1E1E1E] shadow-inner shadow-[#9629fc] drop-shadow-2xl'>
