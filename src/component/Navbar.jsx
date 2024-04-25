@@ -53,7 +53,7 @@ export const Navbar = () => {
               Home
               </li>
             </Link>
-          <Link to='/Tokenlanchpad'> <li className={` gap-2.5 p-2.5  w-[7.375rem] rounded-tl-[1.25rem] rounded-br-[1.25rem] ${pathname === "/Tokenlanchpad" && " bg-gradient-to-b  from-[#0400DB]    to-[#CD05FF]  hover:shadow-md"}  `}>Nft_Launchpad</li></Link>
+          <Link to='/Tokenlanchpad'> <li className={` gap-2.5 p-2.5  w-[7.375rem] rounded-tl-[1.25rem] rounded-br-[1.25rem] ${pathname === "/Tokenlanchpad" && " bg-gradient-to-b  from-[#0400DB]    to-[#CD05FF]  hover:shadow-md"}  `}>Lanchpad</li></Link>
           <a href="" > <li className="  hover:bg-gradient-to-b  from-[#0400DB]    to-[#CD05FF]     hover:shadow-md    gap-2.5 p-2.5 p-2 w-[7.375rem] rounded-tl-[1.25rem] rounded-br-[1.25rem] ">Stake/Farm</li></a>
           <a href="" > <li className=" hover:bg-gradient-to-b  from-[#0400DB]    to-[#CD05FF]     hover:shadow-md    gap-2.5 p-2.5 p-2 w-[7.375rem] rounded-tl-[1.25rem] rounded-br-[1.25rem] ">Claims</li></a>
 
@@ -84,7 +84,7 @@ export const Navbar = () => {
 
 
           <Link to="/">  <li className="hover:text-green-400 ">Home</li></Link>
-          <Link to='/Tokenlanchpad'><li className="hover:text-green-400 ">Nft_Launchpad</li></Link>
+          <Link to='/Tokenlanchpad'><li className="hover:text-green-400 ">Launchpad</li></Link>
           <a href="" > <li className="hover:text-green-400 ">Stake/Farm</li></a>
           <a href="" > <li className="hover:text-green-400 ">Claims</li></a>
         </ul>

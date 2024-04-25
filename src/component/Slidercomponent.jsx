@@ -85,7 +85,7 @@ export const Slidercomponent = () => {
 
 
 
-<div><h1 className='lg:text-[12px] text-[8px]  ml-5 text-[#474847]'>REGISTER PERIOD (TO) </h1>
+<div><h1 className='lg:text-[12px] text-[8px]  ml-5 text-[#474847]'>REGISTER PERIOD (TO)</h1>
 </div>
 
 

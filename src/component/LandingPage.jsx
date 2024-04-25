@@ -106,7 +106,7 @@ const data=[
 <br />
 <Infrastructure/>
 
-<Slidercomponent/>
+<Slidercomponent/> 
 
 <CompletedProjects/>
 
