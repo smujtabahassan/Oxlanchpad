@@ -52,26 +52,12 @@ const data=[
 
 
 
-<div className='   md:text-[43px] sm:text-[20px] text-[10px] text-center   font-medium space-y-4   pt-32 md:pt-24'>
+<div className='   md:text-[43px] sm:text-[20px] text-[14px] text-center   font-medium space-y-4   pt-32 md:pt-24'>
   <h1 className='  font-bold text-[30px]  md:text-[60px]'>Join Best Web3 Gaming 
   </h1> 
-  <h1 className=' font-semibold text-[20px] md:text-[50px] bg-gradient-to-b text-transparent bg-clip-text igos from-[#0400DB] from-30% to-[#CD05FF] to-70%'>IGOs With 0Xgaming</h1>
+  <h1 className=' font-semibold text-[24px] md:text-[50px] bg-gradient-to-b text-transparent bg-clip-text igos from-[#0400DB] from-30% to-[#CD05FF] to-70%'>IGOs With 0Xgaming</h1>
  
 
-  <div
-    
-   className='flex flex-row   mx-auto w-fit'>
-    
-    <button className={`cursor-pointer    sm:flex flex-col  justify-center items-center  hover:scale-75 transition-all ease-linear delay-75   h-[42px] mr-2  bg-gradient-to-b from-[#0400DB]    to-[#CD05FF]      text-[15px] font-bold   gap-2.5 p-2.5  lg:w-[178.81px] w-[2.375rem]  rounded-tl-[1.25rem] rounded-br-[1.25rem] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] text-[6px]">Connect Wallet</Link>
-</button>
-    
-
-<button className={`cursor-pointer   flex justify-center items-center    h-[42px] mr-2  bg-[#cdcccc]  hover:scale-125 transition-all ease-linear delay-75       gap-2.5 p-2.5  lg:w-[178.81px] w-[2.375rem]  rounded-tl-[1.25rem] font-bold   shadow-inner rounded-br-[1.25rem] text-black text-[15px] `}>      <Link to="" className="link-to-dashboard  lg:text-[14px] text-[6px]">Connect Wallet</Link>
-</button>
-
-
-
-  </div>
 <div className='px-4 space-y-4' >  
 <h1 className='text-[20px]  font-bold mt-20'>AVAILABLE ON:</h1>
 

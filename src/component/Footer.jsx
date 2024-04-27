@@ -45,7 +45,7 @@ iconic symbols, vibrant colors, and dynamic visuals .</p>
 
 
 </div>
-<p className='sm:text-[10px] text-[#8a8a8a] text-[10px] font-bold'>© Copyright 2023, All Rights Reserved by board</p>
+<p className='sm:text-[10px] text-[#8a8a8a] text-[6px] font-bold'>© Copyright 2023, All Rights Reserved by board</p>
 </div>
     
   )
