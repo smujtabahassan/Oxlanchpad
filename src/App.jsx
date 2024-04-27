@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link, useLocation } from 'react-router-dom';
 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { LandingPage } from './component/LandingPage';

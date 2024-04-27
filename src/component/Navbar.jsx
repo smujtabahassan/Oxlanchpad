@@ -77,7 +77,7 @@ export const Navbar = () => {
 
         <ul
           className={`${toogle
-              ? "flex  md:justify-around  lg:text-[16px] text-[10px]  w-[auto] md:gap-12 gap-1 md:flex-row flex-col    md:bg-transparent  cursor-pointer  "
+              ? "flex  md:justify-around  lg:text-[16px] text-[14px]  w-[auto] md:gap-12 gap-10 md:flex-row flex-col    md:bg-transparent  cursor-pointer  "
               : "hidden"
             }`}
         >
@@ -92,12 +92,12 @@ export const Navbar = () => {
 
         <div
           className={` ${toogle
-              ? " cursor-pointer    md:hidden flex justify-center items-center h-12    mr-2  bg-gradient-to-b from-[#0400DB]    to-[#CD05FF]         gap-2.5 p-2  lg:w-[10.375rem] w-[6.375rem]  rounded-tl-[1.25rem] rounded-br-[1.25rem]"
+              ? " cursor-pointer mt-10   md:hidden flex justify-center items-center h-12    mr-2  bg-gradient-to-b from-[#0400DB]    to-[#CD05FF]         gap-2.5 p-2  lg:w-[10.375rem] w-[6.375rem]  rounded-tl-[1.25rem] rounded-br-[1.25rem]"
               : "hidden"
             }`}
         >
 
-          <button>      <Link to="/" className="link-to-dashboard  lg:text-[14px] text-[6px]">Connect Wallet</Link>
+          <button>      <Link to="/" className="link-to-dashboard  lg:text-[14px] text-[12px] ">Connect Wallet</Link>
           </button>
 
         </div>
